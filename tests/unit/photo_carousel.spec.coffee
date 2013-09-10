@@ -29,13 +29,13 @@ describe 'Photo carousel', ->
     expect(typeof module.loadPhoto).toEqual 'function'
 
   it 'initialises the carousel', ->
-    $container = $ markup
+    $container = $(markup)
     module.initPhotoCarousel $container
     expect($container.html()).toContain '<button class="cta-pan cta-left">Left</button>'
     expect($container.html()).toContain '<button class="cta-pan cta-right">Right</button></div>'
 
-  it 'correctly applies a class to #hotel-photo when loading a photo', ->
-    $container = $ markup
+  it 'applies the correct class to #hotel-photo when loading a photo', ->
+    $container = $(markup)
     $photo = $container.find '#hotel-photo'
     module.initPhotoCarousel $container
     module.loadPhoto '', 'full'

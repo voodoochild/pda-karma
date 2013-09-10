@@ -16,7 +16,7 @@ module.exports = (config) ->
       '/Users/cwatt/hcom-dev/hcom/Assets/CommonAssetPack/Main/webapp/js/hcom/common/hcom.common.jquery.modules.js',
       '/Users/cwatt/hcom-dev/hcom/Assets/CommonAssetPack/Main/webapp/js/hcom/property_details/hcom.property_details.modules.photo_carousel.js',
 
-      'tests/unit/**/*.spec.coffee'
+      'tests/unit/**/*.spec.js'
     ]
 
     # list of files to exclude
