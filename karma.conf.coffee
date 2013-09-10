@@ -12,13 +12,16 @@ module.exports = (config) ->
 
     # list of files / patterns to load in the browser
     files: [
-      'js/**/*.js',
-      'test/unit/**/*.spec.coffee'
+      '/Users/cwatt/hcom-dev/hcom/Assets/CommonAssetPack/Main/webapp/js/lib/jquery-1.8.3.js',
+      '/Users/cwatt/hcom-dev/hcom/Assets/CommonAssetPack/Main/webapp/js/hcom/common/hcom.common.jquery.modules.js',
+      '/Users/cwatt/hcom-dev/hcom/Assets/CommonAssetPack/Main/webapp/js/hcom/property_details/hcom.property_details.modules.photo_carousel.js',
+
+      'tests/unit/**/*.spec.coffee'
     ]
 
     # list of files to exclude
     exclude: [
-      
+
     ]
 
     # test results reporter to use
