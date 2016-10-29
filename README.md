@@ -1,7 +1,7 @@
 PDA tests
 =========
 
-Front–end unit tests for the PDA project are written in [Jasmine](http://pivotal.github.io/jasmine/) and run using [Karma](http://karma-runner.github.io/). Specs are written in [CoffeeScript](http://coffeescript.org/) for clarity, but that could well change.
+Front–end unit tests for the PDA project are written in [Jasmine](http://jasmine.github.io/) and run using [Karma](http://karma-runner.github.io/). Specs are written in [CoffeeScript](http://coffeescript.org/) for clarity, but that could well change.
 
 
 Setup
